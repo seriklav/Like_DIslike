@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Модуль Лайк Дизлайк</title>
+	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="js/like_unlike.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/like_unlike.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#likeModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="likeModal" tabindex="-1" role="dialog" aria-labelledby="likeModallLabel">
+  <div class="modal-dialog" role="document" style="width: 50%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+        <div class="tab_like" role="tablist">
+            <a href="#like" aria-controls="like" role="tab" data-toggle="tab" class="label label-primary"><i class="fa fa-thumbs-o-up"></i> Like</a>
+            <a href="#dislike" aria-controls="dislike" role="tab" data-toggle="tab" class="label label-danger"><i class="fa fa-thumbs-o-down"></i> DisLike</a>
+        </div>
+      </div>
+      <div class="modal-body clearfix">
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="like">
+            	<h2 class="tab_like h2">Пользователи которым понравилась статья</h2>
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div> 
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div> 
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>				 												            	
+            </div>
+            <div role="tabpanel" class="tab-pane" id="dislike">
+            	<h2 class="tab_like h2">Пользователи которым не понравилась статья</h2>
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>
+				<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>
+																<div class="user_like">
+				        <div class="img_user">
+				            <a href="#" target="_blank">
+				                <img src="none_img.jpg" alt="Serik Lavrinyuk" title="Serik Lavrinyuk" class="img-thumbnail img-responsive"/>
+				            </a>    
+				        </div>
+				    <div class="user_name">
+				    	<a href="#" target="_blank">Serik Lavrinyuk</a>
+				    </div>
+				</div>
+            </div>
+        </div>                                              
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
